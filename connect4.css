@@ -1,5 +1,5 @@
 body { /*Sets the background image*/
-  background-image: url("/media/deep_space.jpg");
+  background-image: url("./media/deep_space.jpg");
   background-position: top;
 }
 
@@ -101,7 +101,7 @@ h1 {
   right: 240px;
   background-color: black;
   text-align: center;
-  background-image: url("/media/astronaut.gif");
+  background-image: url("./media/astronaut.gif");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h1 {
   right: 5%;
   bottom: 5%;
   border-radius: 50%;
-  background: url("/media/spaceShip2.jpg") 0 0;
+  background: url("./media/spaceShip2.jpg") 0 0;
   background-size: contain;
   background-repeat: no-repeat;
   transition: 2s;
