@@ -119,13 +119,14 @@ h1 {
 
 /*The auxillary spaceship*/
 #spaceship {
-  width: 115px;
-  height: 115px;
+  /*stop from moving scroll bar*/
+  width: 150px;
+  height: 150px;
   position: absolute;
-  right: 5%;
-  bottom: 5%;
+  right: 0%;
+  bottom: 0%;
   border-radius: 50%;
-  background: url("./media/spaceShip2.jpg") 0 0;
+  background: url("https://media1.giphy.com/media/5b9tbgErjE8I8Q7N7V/giphy.gif") 0 0;
   background-size: contain;
   background-repeat: no-repeat;
   transition: 2s;
